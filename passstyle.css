@@ -62,4 +62,11 @@ header {
     margin-top: 15px;
     margin-left: 30px;
     margin-right: 30px;
+    gap: 20px;
+}
+
+.item {
+    border: 2px solid transparent;
+    border-radius: 10px;
+    border-image: linear-gradient(45deg, red, blue) 1;
 }
