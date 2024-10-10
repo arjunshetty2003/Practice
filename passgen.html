@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styling.css">
+    <title>Generate Password</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">PassGen</a>
+        <button type="button" class="darkmodebutton">Dark Mode</button>
+    </header>
+    <div>
+        <form>
+            <label class="headlabel">Enter Number of Characters: </label><input type="range" min="8" max="50" value="8" class="rangebar" />
+            <label class="headlabel">Select the type of characters</label>
+            <input type="checkbox" /><label class="sublabel">Numbers</label>
+            <input type="checkbox" /><label class="sublabel">Alphabets</label>
+            <input type="checkbox" /><label class="sublabel">Special Characters</label>
+            <input type="text" placeholder="Your generated password is shown here" class="inputbox"/>
+            <button type="submit" class="submitbutton">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <p class="footercontent">&copy; 2024 PassGen Inc. All rights reserved.</p>
+    </footer>
+</body>
+</html>

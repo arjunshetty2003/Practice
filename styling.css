@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+body {
+    background-color: #f8f8f8; /* Light grey background */
+    font-family: Arial, sans-serif; /* Default font */
+}
+
+header {
+    background-color: black;
+    display: flex;
+    height: 5rem;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between logo and button */
+    padding: 0 1.5rem; /* Padding for header */
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-family: "Lalezar", system-ui;
+    font-size: 2rem;
+}
+
+.darkmodebutton, .redirectbutton {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.darkmodebutton:hover, .redirectbutton:hover {
+    background-color: #ddd; /* Light gray on hover */
+}
+
+.introduction, .features {
+    padding: 2rem;
+}
+
+.featureplate {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem 0; /* Spacing between features */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
